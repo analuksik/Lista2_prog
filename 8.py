@@ -12,8 +12,6 @@ try:
     opcao = int(input("Opções: 1: Mix 1, 2: Mix 2 ou 3: Mix 3"))
     print("Digite 0 para sair do progama")
 
-    cliente += 1
-
     if opcao == 1:
       op1 += 1
     elif opcao == 2:
@@ -22,6 +20,9 @@ try:
      op3 += 1
     elif opcao == 0:
      break
+    cliente += 1
+    
+  if cliente > 0:  
   porc1 = (op1 / cliente) * 100
   porc2 = (op2 / cliente) * 100
   porc3 = (op3 / cliente) * 100
