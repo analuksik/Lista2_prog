@@ -2,7 +2,7 @@ try:
   empregado = 0
   desempregado = 0
   hab = 0
-  while (hab < 4):
+  while (hab < 10001):
     status = str(input(f"Você trabalha? (S/N): "))
     hab += 1
     if status == 'S':
