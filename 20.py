@@ -26,7 +26,7 @@ while True:
       print('DIGITE UMA OPÇÃO VÁLIDA. ')
 
   except Exception as ERRO_EXCECAO:
-    print(f'ERRO DE EXCEÇÃO: {ERRO_EXECAO}')  
+    print(f'ERRO DE EXCEÇÃO: {ERRO_EXCECAO}')  
 
 porcVip = (vip / total) * 100
 porcStand = (stand / total) * 100
