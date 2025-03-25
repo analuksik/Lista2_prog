@@ -1,7 +1,7 @@
 import math
 
 paciente = 0
-for i in range(0, 5):
+for i in range(0, 500):
 
   try:
 
