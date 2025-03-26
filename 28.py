@@ -1,17 +1,21 @@
 import math
 
-n = int(input('Digite um valor para n: '))
+try:
 
-if n >= 1:
-    soma, mult = 0, 1
+  n = int(input('Digite um valor para n: '))
 
-    for i in range(1, n+1, 2):
-        soma += math.pi + (math.pi / i)
+  if n >= 1:
+      soma, mult = 0, 1
 
-    for i in range(1, n+1, 2):
-        mult *= i / math.pi
+      for i in range(1, n+1, 2):
+          soma += math.pi + (math.pi / i)
 
-    print(f"Soma (S) = {soma}")
-    print(f"Multiplicação (M) = {mult}")
-else:
-    print("Por favor, insira um valor inteiro positivo para n.")
+      for i in range(1, n+1, 2):
+          mult *= i / math.pi
+
+      print(f"Soma (S) = {soma}")
+      print(f"Multiplicação (M) = {mult}")
+  else:
+      print("Por favor, insira um valor inteiro positivo para n.")
+except Exception as ERRO_EXCECAO:
+  print(f'ERRO DE EXCEÇÃO: {ERRO_EXCECAO}')
