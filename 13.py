@@ -8,7 +8,7 @@ soma_hMasc, soma_hFem = 0, 0
 mascG, femG = 0, 0
 mediaH, mediaM, porcF, porcH = 0, 0, 0, 0
 
-while contador < 4:
+while contador < 50:
 
   try:
     sexo = int(input('Digite a opção referente ao seu sexo: '))
