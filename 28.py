@@ -9,7 +9,7 @@ if n >= 1:
         soma += math.pi + (math.pi / i)
 
     for i in range(1, n+1, 2):
-        mult *= math.pi * i 
+        mult *= i / math.pi
 
     print(f"Soma (S) = {soma}")
     print(f"Multiplicação (M) = {mult}")
